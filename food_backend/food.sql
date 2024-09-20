@@ -211,7 +211,6 @@ CREATE TABLE `auth_user` (
 BEGIN;
 INSERT INTO `auth_user` (`id`, `password`, `last_login`, `is_superuser`, `username`, `first_name`, `last_name`, `email`, `is_staff`, `is_active`, `date_joined`) VALUES (1, 'pbkdf2_sha256$600000$qi2tQyZzyroyND44lcAxKU$3VRAjQ8qnPfve04nhFMl8sqOs20xf0WFh/9i1sA7uNU=', '2024-09-20 22:33:27.978542', 1, 'root', '', '', 'root@163.com', 1, 1, '2024-05-20 16:41:28.002104');
 INSERT INTO `auth_user` (`id`, `password`, `last_login`, `is_superuser`, `username`, `first_name`, `last_name`, `email`, `is_staff`, `is_active`, `date_joined`) VALUES (2, 'pbkdf2_sha256$600000$qi2tQyZzyroyND44lcAxKU$3VRAjQ8qnPfve04nhFMl8sqOs20xf0WFh/9i1sA7uNU=', '2024-06-02 10:09:14.825912', 0, 'admin', '', '', 'admin@163.com', 1, 1, '2024-05-20 17:30:00.000000');
-INSERT INTO `auth_user` (`id`, `password`, `last_login`, `is_superuser`, `username`, `first_name`, `last_name`, `email`, `is_staff`, `is_active`, `date_joined`) VALUES (4, 'pbkdf2_sha256$600000$qn08tFRWhmSyOELAGtsakB$uKYeF1KApengnY6sBl0eaKd1hIP7wbyMrIAnQHBWoKI=', '2024-06-02 10:13:04.617306', 0, 'cwj', '', '', 'unjun0228@163.com', 0, 1, '2024-06-01 23:42:00.723292');
 INSERT INTO `auth_user` (`id`, `password`, `last_login`, `is_superuser`, `username`, `first_name`, `last_name`, `email`, `is_staff`, `is_active`, `date_joined`) VALUES (8, 'pbkdf2_sha256$600000$HbHfumKb72jqHgig7YBqO2$4upuWpWKdk4J4Gr9yTOxZobiCJCSlxC61MIjmhiGp3g=', '2024-06-04 09:11:09.161267', 0, 'user', '', '', '2755836193@qq.com', 0, 1, '2024-06-04 09:11:01.466563');
 COMMIT;
 
